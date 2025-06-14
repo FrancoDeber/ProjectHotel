@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ComentariosApplication<comentarios>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "deber.comentarios.ComentariosApplication",
+            "projectName": "comentarios",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaserverApplication<eurekaserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "deber.eurekaserver.EurekaserverApplication",
+            "projectName": "eurekaserver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayApplication<gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "deber.gateway.GatewayApplication",
+            "projectName": "gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ReservasApplication<reservas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "deber.reservas.ReservasApplication",
+            "projectName": "reservas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UsuariosApplication<usuarios>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "deber.usuarios.UsuariosApplication",
+            "projectName": "usuarios",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
